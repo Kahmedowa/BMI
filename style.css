@@ -32,7 +32,8 @@ label, input{
     border-radius: 2px;
 }
 label{
-    margin-top: 5px;
+    margin: 5px;
+    font-weight: bold;
 }
 input{
     text-align: center;
@@ -55,5 +56,9 @@ button:hover{
 }
 span{
     margin-top: 10px;
+}
+i{
+    padding-right: 5px;
+    font-size: 2.4rem;
 }
 
