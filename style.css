@@ -1,0 +1,59 @@
+body {
+    background: url(pics/pexels-andrea-piacquadio-3756042.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+form, main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(253, 216, 167);
+    border-radius: 10%;
+    padding: 10px;
+}
+
+main{
+    width: 300px;
+    height: 500px;
+    background-color: rgb(253, 216, 167);
+    border-radius: 10%;
+    border:4px solid rgb(229, 195, 153);;
+}
+label, input{
+    width: 130px;
+    border-radius: 2px;
+}
+label{
+    margin-top: 5px;
+}
+input{
+    text-align: center;
+    background-color: antiquewhite;
+}
+input:hover{
+    background-color: rgb(229, 195, 153);
+}
+
+button{
+    margin-top: 40px;
+    width: 100px;
+    border-radius:5px;
+    padding: 2px;
+    text-transform: uppercase;
+    background-color: antiquewhite;
+}
+button:hover{
+    background-color: rgb(229, 195, 153);
+}
+span{
+    margin-top: 10px;
+}
+
